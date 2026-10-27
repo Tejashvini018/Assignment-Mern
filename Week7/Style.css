@@ -70,3 +70,12 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 200px;
+}
