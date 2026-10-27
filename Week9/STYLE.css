@@ -70,11 +70,11 @@ nav a {
 /* Tablet */
 
 @media (min-width:768px) {
-    body {
-        background: #f5f5f5;
-    }
     .features {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .hero h1 {
+        font-size: 2.5rem;
     }
 }
 
@@ -82,8 +82,10 @@ nav a {
 /* Desktop */
 
 @media (min-width:1024px) {
-    body {
-        background: #e7eaef;
+    .container {
+        width: 85%;
+        max-width: 1100px;
+        margin: auto;
     }
     header {
         display: flex;
@@ -91,7 +93,23 @@ nav a {
         align-items: center;
         padding: 1rem 2rem;
     }
+    .logo {
+        margin: 0;
+    }
+    nav {
+        margin-top: 0;
+    }
     .features {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .hero {
+        padding: 2rem;
+    }
+    .hero h1 {
+        font-size: 3rem;
+    }
+    .hero img {
+        max-width: 650px;
+        margin: auto;
     }
 }
