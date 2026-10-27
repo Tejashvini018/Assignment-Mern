@@ -74,8 +74,24 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    padding: 22px 10px;
 }
 
 .card {
     flex: 1 1 200px;
+    padding: 26px 20px;
+    border-radius: 15px;
+    background-color: #eef2ff;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0 0 2px;
+    font-size: 24px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 20px;
 }
